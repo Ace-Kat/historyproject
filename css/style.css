@@ -397,6 +397,13 @@ body.offcanvas {
       padding-top: 5em;
       padding-bottom: 8em; } }
 
+.my-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  margin: 20px 0; }
+      
 .author-img {
   background-size: cover;
   background-position: center center;
