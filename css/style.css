@@ -366,7 +366,7 @@ body.offcanvas {
   padding: 0 2.5em; }
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
-      padding: 0; } }
+      padding: 25; } }
 
 .no-gutters {
   margin: 0;
