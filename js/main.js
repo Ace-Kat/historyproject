@@ -330,11 +330,10 @@
 		numCorrect++;
 	}
 	if (numCorrect < 5) {
-  		alert(`You answered ${numCorrect} out of 5 questions correctly. You have unfortunately lost the battle, please try again by refreshing the page`);
-	}
-	if (numCorrect == 5) {
-		alert(`You answered ${numCorrect} out of 5 questions correctly. Congratualations! You have won the battle!`);
-	}
+		alert(`You answered ${numCorrect} out of 5 questions correctly. You have unfortunately lost the battle, please try again by refreshing the page.`);
+	  } else if (numCorrect == 5) {
+		alert(`You answered ${numCorrect} out of 5 questions correctly. Congratulations! You have won the battle!`);
+	  }
 	});
 
 }());
