@@ -319,9 +319,18 @@
   	}
   	if (answers['q2'].value === 'a') {
     numCorrect++;
- 	 }
+ 	}
+	if (answers['q3'].value === 'a') {
+		numCorrect++;
+	}
+	if (answers['q4'].value === 'a') {
+		numCorrect++;
+	}
+	if (answers['q5'].value === 'a') {
+		numCorrect++;
+	}
 
-  	alert(`You answered ${numCorrect} out of 2 questions correctly.`);
+  	alert(`You answered ${numCorrect} out of 5 questions correctly.`);
 	});
 
 }());
