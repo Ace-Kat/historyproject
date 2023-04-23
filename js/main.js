@@ -330,7 +330,7 @@
 		numCorrect++;
 	}
 	if (numCorrect < 5) {
-		alert(`You answered ${numCorrect} out of 5 questions correctly. You have unfortunately lost the battle, please try again by refreshing the page.`);
+		alert(`You answered ${numCorrect} out of 5 questions correctly. You have unfortunately lost the battle, please try again.`);
 	  } else if (numCorrect == 5) {
 		alert(`You answered ${numCorrect} out of 5 questions correctly. Congratulations! You have won the battle!`);
 	  }
