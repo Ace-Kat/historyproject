@@ -305,6 +305,23 @@
 		stickyFunction();
 		owlCrouselFeatureSlide();
 	});
+	
+	const quizForm = document.getElementById('quiz-form');
 
+	quizForm.addEventListener('submit', function(event) {
+  	event.preventDefault(); // prevent form from submitting
+  
+  	const answers = quizForm.elements;
+  	let numCorrect = 0;
+
+  	if (answers['q1'].value === 'a') {
+    numCorrect++;
+  	}
+  	if (answers['q2'].value === 'a') {
+    numCorrect++;
+ 	 }
+
+  	alert(`You answered ${numCorrect} out of 2 questions correctly.`);
+	});
 
 }());
