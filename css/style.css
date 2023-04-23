@@ -31,6 +31,14 @@ a {
     outline: none;
     text-decoration: none !important; }
 
+audio {
+      background-color: rgb(26, 34, 27);
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 0;
+  }
+
 p {
   margin-bottom: 1.5em; }
 
@@ -80,7 +88,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #1a221b;
+  background: rgb(26, 34, 27);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
