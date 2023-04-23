@@ -314,10 +314,10 @@
   	const answers = quizForm.elements;
   	let numCorrect = 0;
 
-  	if (answers['q1'].value === 'a') {
+  	if (answers['q1'].value === 'b') {
     numCorrect++;
   	}
-  	if (answers['q2'].value === 'a') {
+  	if (answers['q2'].value === 'b') {
     numCorrect++;
  	}
 	if (answers['q3'].value === 'a') {
@@ -326,7 +326,7 @@
 	if (answers['q4'].value === 'a') {
 		numCorrect++;
 	}
-	if (answers['q5'].value === 'a') {
+	if (answers['q5'].value === 'c') {
 		numCorrect++;
 	}
 
